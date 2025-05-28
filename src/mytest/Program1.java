@@ -38,7 +38,7 @@ public class Program1
 	public void verifyLogo()
 	{
 		boolean flag = driver.findElement(By.xpath("//a[@title='Flipkart']")).isDisplayed();
-		System.out.println("**************************" + flag);
+		System.out.println("**********************" + flag);
 		Assert.assertTrue(flag);
 	}
 	
